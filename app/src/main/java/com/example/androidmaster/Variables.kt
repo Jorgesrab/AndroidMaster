@@ -29,7 +29,7 @@ fun main() {
     //Char
     var charExample:Char = 'a';
     //String
-    val stringExample:String = "Hola buenas";
+    val  stringExample:String = "Hola buenas";
     val stringExample2:String = " me llamo Jorge";
     val stringExample3:String = "$stringExample$stringExample2 y tengo $decimal años";
     println(stringExample3)
@@ -48,7 +48,19 @@ fun main() {
 
     var exmapleSuma: Int = entero + decimal.toInt()
 
+    //llamada a la funcion
+    pruebaDeFunciones()
 
+    showMyAge(17)
 
+}
+//Funcion simple
+fun pruebaDeFunciones(){
+    println("Prueba de funciones")
+
+}
+
+fun showMyAge(currenage:Int){
+    println("Tengo $currenage años")
 
 }
