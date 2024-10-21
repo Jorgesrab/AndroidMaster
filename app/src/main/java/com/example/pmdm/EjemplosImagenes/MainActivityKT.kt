@@ -1,4 +1,4 @@
-package com.example.pmdm // Reemplaza con el nombre de tu paquete
+package com.example.pmdm.EjemplosImagenes // Reemplaza con el nombre de tu paquete
 
 import android.graphics.Color
 import android.graphics.Typeface

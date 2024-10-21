@@ -1,4 +1,4 @@
-package com.example.pmdm
+package com.example.pmdm.EjemplosImagenes
 
 import android.os.Bundle
 import android.view.View
