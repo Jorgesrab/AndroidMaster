@@ -1,4 +1,4 @@
-package com.example.androidmaster
+package com.example.androidmaster.sintaxis
 
 fun main() {
     val soloLectura: List<String> = listOf("Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo")
