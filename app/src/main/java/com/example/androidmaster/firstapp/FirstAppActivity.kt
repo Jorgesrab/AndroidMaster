@@ -1,5 +1,6 @@
 package com.example.androidmaster.firstapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.enableEdgeToEdge
@@ -23,7 +24,9 @@ class FirstAppActivity : AppCompatActivity() {
         btnStart.setOnClickListener {
             val name = etName.text.toString()
             if (name.isNotEmpty()) {
-                Log.i("Jorge", "Button Pulsado ${etName.text.toString()}")
+                val intent = Intent(this, ResultActivity::class.java)
+                intent.putExtra("EXTRA_NAME",name)
+                startActivity(intent)
 
             }
 
